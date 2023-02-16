@@ -2,20 +2,15 @@ import streamlit as st
 import pandas as pd
 import requests
 
-df= pd.read_csv("items.csv")
-df= df.set_index('nom')
-# try :
-# 	print(df.loc[['Carrot Seeds']]["identifiant"][0])
-# except KeyError:
-# 	print('Non trouvé')
-st.set_page_config(layout='wide')
-text = st.text_input("Item")
-confirm = st.button('Confirm')
-items = df[df.index.str.contains(text, case=False)]
-st.table(df[df.index.str.contains(text, case=False)])
+df= pd.read_csv("items.csv") # liste des items
+itemName = st.selectbox("Tapez le nom de l'item : ", df['nom'].values)
+cityNames = ["Thetford", "Fort_Sterling", "Carleon", "Lymhurst", "Martlock", "Bridgewatch", "Black Market"]
+st.write('Choisis une ville : ')
+for city in cityNames:
+    st.checkbox(city, key=city)
+
+confirm = st.button("Valider")
 
 if confirm:
-    item_id = items["identifiant"][0]
-    response = requests.get("https://www.albion-online-data.com/api/v2/stats/prices/" + item_id + ".json?locations=Caerleon,Bridgewatch")
-    df_item = pd.json_normalize(response.json())
-    st.write('Current buying price is '  + str(df_item[df_item['city'] == "Bridgewatch"]['buy_price_min'].values[0]) + " silvers")
+    itemId = df[df['nom'].str.contains(itemName)]['identifiant'].values[0]
+    
