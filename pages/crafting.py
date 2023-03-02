@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
+from io import BytesIO
+import requests
 
 st.header("Infos lié à un item")
 st.write("""On ne cherche pas à regarder le prix de l'item ici. On regarde seulement les
@@ -11,6 +14,9 @@ confirm = st.button('Valider')
 
 if confirm:
     infoLink = "https://gameinfo.albiononline.com/api/gameinfo/items/{item}/data".format(item=itemName)
-    imageLink = "https://render.albiononline.com/v1/item/{identifier}.png".format(identifier=itemName)
-    st.image(imageLink)
+    iconLink = "https://render.albiononline.com/v1/item/{identifier}.png".format(identifier=itemName)
 
+    iconReq = requests.get(iconLink)
+    icon = Image.open(BytesIO(iconReq.content))
+
+    st.image(icon.resize((64,64)))
