@@ -4,11 +4,11 @@ import requests
 import datetime
 import plotly.graph_objs as go  
 
-st.header("Trading Post")
+st.header("Trading Post 💰")
 st.write("""Si vous trouvez qu'il y a des données étranges, c'est peut-être parce que
 l'API n'est pas complètement à jour.
 
-Guide:
+⚠️ Guide:
 - Bien remplir les informations
 - Il est possible d'intéragir avec le graphe : on peut cliquer sur les légendes pour afficher ou non les courbes
 - Beaucoup d'objets n'ont pas d'informations, c'est normal. Les objets qui ont plus de chance d'avoir des informations sur les armes (dagger, sword...) """)
@@ -16,7 +16,7 @@ df= pd.read_csv("items.csv") # liste des items
 
 # Les options
 itemName = st.selectbox("Nom de l'item : ", df['nom'].values)
-dateDeDeb = st.text_input("Date de début (format : AAAA-MM-JJ) : ")
+dateDeDeb = st.text_input("Date de début (format : AAAA-MM-JJ), mettez la date 1 mois avant aujourd'hui si vous ne savez pas quoi mettre : ")
 
 # types de comparaison
 typeComp = st.selectbox("Type de comparaison:", ["Par ville", "Par qualité"])
