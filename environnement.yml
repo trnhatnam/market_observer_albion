@@ -1,5 +1,5 @@
 name: plot
 dependencies:
-  -python=3.9.13
-  -plotly=5.9.0
-  -pandas=1.4.4
+  - python=3.9.13
+  - plotly=5.9.0
+  - pandas=1.4.4
