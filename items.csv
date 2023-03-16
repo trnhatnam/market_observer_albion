@@ -364,6 +364,26 @@ T5_WOOD,Cedar Logs
 T6_WOOD,Bloodoak Logs
 T7_WOOD,Ashenbark Logs
 T8_WOOD,Whitewood Logs
+T4_WOOD_LEVEL1,Uncommon Pine Logs
+T5_WOOD_LEVEL1,Uncommon Cedar Logs
+T6_WOOD_LEVEL1,Uncommon Bloodoak Logs
+T7_WOOD_LEVEL1,Uncommon Ashenbark Logs
+T8_WOOD_LEVEL1,Uncommon Whitewood Logs
+T4_WOOD_LEVEL2,Rare Pine Logs
+T5_WOOD_LEVEL2,Rare Cedar Logs
+T6_WOOD_LEVEL2,Rare Bloodoak Logs
+T7_WOOD_LEVEL2,Rare Ashenbark Logs
+T8_WOOD_LEVEL2,Rare Whitewood Logs
+T4_WOOD_LEVEL3,Exceptional Pine Logs
+T5_WOOD_LEVEL3,Exceptional Cedar Logs
+T6_WOOD_LEVEL3,Exceptional Bloodoak Logs
+T7_WOOD_LEVEL3,Exceptional Ashenbark Logs
+T8_WOOD_LEVEL3,Exceptional Whitewood Logs
+T4_WOOD_LEVEL4,Pristine Pine Logs
+T5_WOOD_LEVEL4,Pristine Cedar Logs
+T6_WOOD_LEVEL4,Pristine Bloodoak Logs
+T7_WOOD_LEVEL4,Pristine Ashenbark Logs
+T8_WOOD_LEVEL4,Pristine White Wood Logs
 T1_ROCK,Rough Stone
 T2_ROCK,Limestone
 T3_ROCK,Sandstone
@@ -372,6 +392,21 @@ T5_ROCK,Granite
 T6_ROCK,Slate
 T7_ROCK,Basalt
 T8_ROCK,Marble
+T4_ROCK_LEVEL1,Uncommon Travertine
+T5_ROCK_LEVEL1,Uncommon Granite
+T6_ROCK_LEVEL1,Uncommon Slate
+T7_ROCK_LEVEL1,Uncommon Basalt
+T8_ROCK_LEVEL1,Uncommon Marble
+T4_ROCK_LEVEL2,Rare Travertine
+T5_ROCK_LEVEL2,Rare Granite
+T6_ROCK_LEVEL2,Rare Slate
+T7_ROCK_LEVEL2,Rare Basalt
+T8_ROCK_LEVEL2,Rare Marble
+T4_ROCK_LEVEL3,Exceptional Travertine
+T5_ROCK_LEVEL3,Exceptional Granite
+T6_ROCK_LEVEL3,Exceptional Slate
+T7_ROCK_LEVEL3,Exceptional Basalt
+T8_ROCK_LEVEL3,Exceptional Marble
 T2_ORE,Copper Ore
 T3_ORE,Tin Ore
 T4_ORE,Iron Ore
@@ -379,6 +414,26 @@ T5_ORE,Titanium Ore
 T6_ORE,Runite Ore
 T7_ORE,Meteorite Ore
 T8_ORE,Adamantium Ore
+T4_ORE_LEVEL1,Uncommon Iron Ore
+T5_ORE_LEVEL1,Uncommon Titanium Ore
+T6_ORE_LEVEL1,Uncommon Runite Ore
+T7_ORE_LEVEL1,Uncommon Meteorite Ore
+T8_ORE_LEVEL1,Uncommon Adamantium Ore
+T4_ORE_LEVEL2,Rare Iron Ore
+T5_ORE_LEVEL2,Rare Titanium Ore
+T6_ORE_LEVEL2,Rare Runite Ore
+T7_ORE_LEVEL2,Rare Meteorite Ore
+T8_ORE_LEVEL2,Rare Adamantium Ore
+T4_ORE_LEVEL3,Exceptional Iron Ore
+T5_ORE_LEVEL3,Exceptional Titanium Ore
+T6_ORE_LEVEL3,Exceptional Runite Ore
+T7_ORE_LEVEL3,Exceptional Meteorite Ore
+T8_ORE_LEVEL3,Exceptional Adamantium Ore
+T4_ORE_LEVEL4,Pristine Iron Ore
+T5_ORE_LEVEL4,Pristine Titanium Ore
+T6_ORE_LEVEL4,Pristine Runite Ore
+T7_ORE_LEVEL4,Pristine Meteorite Ore
+T8_ORE_LEVEL4,Pristine Adamantium Ore
 T1_HIDE,Scraps of Hide
 T2_HIDE,Rugged Hide
 T3_HIDE,Thin Hide
@@ -387,6 +442,26 @@ T5_HIDE,Heavy Hide
 T6_HIDE,Robust Hide
 T7_HIDE,Thick Hide
 T8_HIDE,Resilient Hide
+T4_HIDE_LEVEL1,Uncommon Medium Hide
+T5_HIDE_LEVEL1,Uncommon Heavy Hide
+T6_HIDE_LEVEL1,Uncommon Robust Hide
+T7_HIDE_LEVEL1,Uncommon Thick Hide
+T8_HIDE_LEVEL1,Uncommon Resilient Hide
+T4_HIDE_LEVEL2,Rare Medium Hide
+T5_HIDE_LEVEL2,Rare Heavy Hide
+T6_HIDE_LEVEL2,Rare Robust Hide
+T7_HIDE_LEVEL2,Rare Thick Hide
+T8_HIDE_LEVEL2,Rare Resilient Hide
+T4_HIDE_LEVEL3,Exceptional Medium Hide
+T5_HIDE_LEVEL3,Exceptional Heavy Hide
+T6_HIDE_LEVEL3,Exceptional Robust Hide
+T7_HIDE_LEVEL3,Exceptional Thick Hide
+T8_HIDE_LEVEL3,Exceptional Resilient Hide
+T4_HIDE_LEVEL4,Pristine Medium Hide
+T5_HIDE_LEVEL4,Pristine Heavy Hide
+T6_HIDE_LEVEL4,Pristine Robust Hide
+T7_HIDE_LEVEL4,Pristine Thick Hide
+T8_HIDE_LEVEL4,Pristine Resilient Hide
 T2_FIBER,Cotton
 T3_FIBER,Flax
 T4_FIBER,Hemp
@@ -394,6 +469,26 @@ T5_FIBER,Skyflower
 T6_FIBER,Amberleaf Cotton
 T7_FIBER,Sunflax
 T8_FIBER,Ghost Hemp
+T4_FIBER_LEVEL1,Uncommon Hemp
+T5_FIBER_LEVEL1,Uncommon Skyflower
+T6_FIBER_LEVEL1,Uncommon Amberleaf Cotton
+T7_FIBER_LEVEL1,Uncommon Sunflax
+T8_FIBER_LEVEL1,Uncommon Ghost Hemp
+T4_FIBER_LEVEL2,Rare Hemp
+T5_FIBER_LEVEL2,Rare Skyflower
+T6_FIBER_LEVEL2,Rare Amberleaf Cotton
+T7_FIBER_LEVEL2,Rare Sunflax
+T8_FIBER_LEVEL2,Rare Ghost Hemp
+T4_FIBER_LEVEL3,Exceptional Hemp
+T5_FIBER_LEVEL3,Exceptional Skyflower
+T6_FIBER_LEVEL3,Exceptional Amberleaf Cotton
+T7_FIBER_LEVEL3,Exceptional Sunflax
+T8_FIBER_LEVEL3,Exceptional Ghost Hemp
+T4_FIBER_LEVEL4,Pristine Hemp
+T5_FIBER_LEVEL4,Pristine Skyflower
+T6_FIBER_LEVEL4,Pristine Amberleaf Cotton
+T7_FIBER_LEVEL4,Pristine Sunflax
+T8_FIBER_LEVEL4,Pristine Ghost Hemp
 T2_PLANKS,Birch Planks
 T3_PLANKS,Chestnut Planks
 T4_PLANKS,Pine Planks
@@ -401,6 +496,26 @@ T5_PLANKS,Cedar Planks
 T6_PLANKS,Bloodoak Planks
 T7_PLANKS,Ashenbark Planks
 T8_PLANKS,Whitewood Planks
+T4_PLANKS_LEVEL1,Uncommon Pine Planks
+T5_PLANKS_LEVEL1,Uncommon Cedar Planks
+T6_PLANKS_LEVEL1,Uncommon Bloodoak Planks
+T7_PLANKS_LEVEL1,Uncommon Ashenbark Planks
+T8_PLANKS_LEVEL1,Uncommon Whitewood Planks
+T4_PLANKS_LEVEL2,Rare Pine Planks
+T5_PLANKS_LEVEL2,Rare Cedar Planks
+T6_PLANKS_LEVEL2,Rare Bloodoak Planks
+T7_PLANKS_LEVEL2,Rare Ashenbark Planks
+T8_PLANKS_LEVEL2,Rare Whitewood Planks
+T4_PLANKS_LEVEL3,Exceptional Pine Planks
+T5_PLANKS_LEVEL3,Exceptional Cedar Planks
+T6_PLANKS_LEVEL3,Exceptional Bloodoak Planks
+T7_PLANKS_LEVEL3,Exceptional Ashenbark Planks
+T8_PLANKS_LEVEL3,Exceptional Whitewood Planks
+T4_PLANKS_LEVEL4,Pristine Pine Planks
+T5_PLANKS_LEVEL4,Pristine Cedar Planks
+T6_PLANKS_LEVEL4,Pristine Bloodoak Planks
+T7_PLANKS_LEVEL4,Pristine Ashenbark Planks
+T8_PLANKS_LEVEL4,Pristine Whitewood Planks
 T2_STONEBLOCK,Limestone Block
 T3_STONEBLOCK,Sandstone Block
 T4_STONEBLOCK,Travertine Block
@@ -415,6 +530,26 @@ T5_METALBAR,Titanium Steel Bar
 T6_METALBAR,Runite Steel Bar
 T7_METALBAR,Meteorite Steel Bar
 T8_METALBAR,Adamantium Steel Bar
+T4_METALBAR_LEVEL1,Uncommon Steel Bar
+T5_METALBAR_LEVEL1,Uncommon Titanium Steel Bar
+T6_METALBAR_LEVEL1,Uncommon Runite Steel Bar
+T7_METALBAR_LEVEL1,Uncommon Meteorite Steel Bar
+T8_METALBAR_LEVEL1,Uncommon Adamantium Steel Bar
+T4_METALBAR_LEVEL2,Rare Steel Bar
+T5_METALBAR_LEVEL2,Rare Titanium Steel Bar
+T6_METALBAR_LEVEL2,Rare Runite Steel Bar
+T7_METALBAR_LEVEL2,Rare Meteorite Steel Bar
+T8_METALBAR_LEVEL2,Rare Adamantium Steel Bar
+T4_METALBAR_LEVEL3,Exceptional Steel Bar
+T5_METALBAR_LEVEL3,Exceptional Titanium Steel Bar
+T6_METALBAR_LEVEL3,Exceptional Runite Steel Bar
+T7_METALBAR_LEVEL3,Exceptional Meteorite Steel Bar
+T8_METALBAR_LEVEL3,Exceptional Adamantium Steel Bar
+T4_METALBAR_LEVEL4,Pristine Steel Bar
+T5_METALBAR_LEVEL4,Pristine Titanium Steel Bar
+T6_METALBAR_LEVEL4,Pristine Runite Steel Bar
+T7_METALBAR_LEVEL4,Pristine Meteorite Steel Bar
+T8_METALBAR_LEVEL4,Pristine Adamantium Steel Bar
 T2_LEATHER,Stiff Leather
 T3_LEATHER,Thick Leather
 T4_LEATHER,Worked Leather
@@ -422,6 +557,26 @@ T5_LEATHER,Cured Leather
 T6_LEATHER,Hardened Leather
 T7_LEATHER,Reinforced Leather
 T8_LEATHER,Fortified Leather
+T4_LEATHER_LEVEL1,Uncommon Worked Leather
+T5_LEATHER_LEVEL1,Uncommon Cured Leather
+T6_LEATHER_LEVEL1,Uncommon Hardened Leather
+T7_LEATHER_LEVEL1,Uncommon Reinforced Leather
+T8_LEATHER_LEVEL1,Uncommon Fortified Leather
+T4_LEATHER_LEVEL2,Rare Worked Leather
+T5_LEATHER_LEVEL2,Rare Cured Leather
+T6_LEATHER_LEVEL2,Rare Hardened Leather
+T7_LEATHER_LEVEL2,Rare Reinforced Leather
+T8_LEATHER_LEVEL2,Rare Fortified Leather
+T4_LEATHER_LEVEL3,Exceptional Worked Leather
+T5_LEATHER_LEVEL3,Exceptional Cured Leather
+T6_LEATHER_LEVEL3,Exceptional Hardened Leather
+T7_LEATHER_LEVEL3,Exceptional Reinforced Leather
+T8_LEATHER_LEVEL3,Exceptional Fortified Leather
+T4_LEATHER_LEVEL4,Pristine Worked Leather
+T5_LEATHER_LEVEL4,Pristine Cured Leather
+T6_LEATHER_LEVEL4,Pristine Hardened Leather
+T7_LEATHER_LEVEL4,Pristine Reinforced Leather
+T8_LEATHER_LEVEL4,Pristine Fortified Leather
 T2_CLOTH,Simple Cloth
 T3_CLOTH,Neat Cloth
 T4_CLOTH,Fine Cloth
@@ -429,6 +584,26 @@ T5_CLOTH,Ornate Cloth
 T6_CLOTH,Lavish Cloth
 T7_CLOTH,Opulent Cloth
 T8_CLOTH,Baroque Cloth
+T4_CLOTH_LEVEL1,Uncommon Fine Cloth
+T5_CLOTH_LEVEL1,Uncommon Ornate Cloth
+T6_CLOTH_LEVEL1,Uncommon Lavish Cloth
+T7_CLOTH_LEVEL1,Uncommon Opulent Cloth
+T8_CLOTH_LEVEL1,Uncommon Baroque Cloth
+T4_CLOTH_LEVEL2,Rare Fine Cloth
+T5_CLOTH_LEVEL2,Rare Ornate Cloth
+T6_CLOTH_LEVEL2,Rare Lavish Cloth
+T7_CLOTH_LEVEL2,Rare Opulent Cloth
+T8_CLOTH_LEVEL2,Rare Baroque Cloth
+T4_CLOTH_LEVEL3,Exceptional Fine Cloth
+T5_CLOTH_LEVEL3,Exceptional Ornate Cloth
+T6_CLOTH_LEVEL3,Exceptional Lavish Cloth
+T7_CLOTH_LEVEL3,Exceptional Opulent Cloth
+T8_CLOTH_LEVEL3,Exceptional Baroque Cloth
+T4_CLOTH_LEVEL4,Pristine Fine Cloth
+T5_CLOTH_LEVEL4,Pristine Ornate Cloth
+T6_CLOTH_LEVEL4,Pristine Lavish Cloth
+T7_CLOTH_LEVEL4,Pristine Opulent Cloth
+T8_CLOTH_LEVEL4,Pristine Baroque Cloth
 T4_ARTEFACT_2H_ARCANESTAFF_HELL,Adept's Occult Orb
 T4_ARTEFACT_2H_BOW_HELL,Adept's Demonic Arrowheads
 T4_ARTEFACT_2H_BOW_KEEPER,Adept's Carved bone
@@ -1378,9 +1553,14 @@ T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE,Elite Wild Boar
 T8_MOUNT_RAM_FW_MARTLOCK_ELITE,Elite Bighorn Ram
 T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE,Elite Swamp Salamander
 T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE,Elite Greywolf
+T8_MOUNT_MAMMOTH_BATTLE,Elder's Command Mammoth
 T7_MOUNT_SWAMPDRAGON_BATTLE,Flame Basilisk
 T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE,Venom Basilisk
 T6_MOUNT_SIEGE_BALLISTA,Siege Ballista
+T8_MOUNT_HORSE_UNDEAD,Spectral Bonehorse
+T5_MOUNT_COUGAR_KEEPER,Swiftclaw
+T8_MOUNT_COUGAR_KEEPER,Rageclaw
+T8_MOUNT_ARMORED_HORSE_MORGANA,Morgana Nightmare
 T8_MOUNT_RABBIT_EASTER,Spring Cottontail
 UNIQUE_MOUNT_RAM_XMAS,Yule Ram
 T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK,Avalonian Basilisk
@@ -1454,9 +1634,16 @@ T3_FURNITUREITEM_ANNIVERSARYBANNER,Anniversary Banner - White
 T3_FURNITUREITEM_ANNIVERSARYBANNER_2020,Anniversary Banner - Red
 T3_FURNITUREITEM_ANNIVERSARYBANNER_2021,Anniversary Banner - Blue
 T3_FURNITUREITEM_ANNIVERSARYBANNER_2022,Anniversary Banner - Turquoise
+UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_A,Recruiter's Crate
+UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_B,Recruiter's Chest
+UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_C,Recruiter's Wooden Chest
+UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_COMPANION,Recruiter's Companion Crate
+UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_BARREL,Recruiter's Barrel-crate
+UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_MERLINCUBE,Recruiter's Merlyn Cube
 UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_SARCOPHAGUS,Recruiter's Sarcophagus Chest
 UNIQUE_FURNITUREITEM_TELLAFRIEND_DEER_STATUE,Recruiter's Deer Statue
 UNIQUE_FURNITUREITEM_TELLAFRIEND_HUNTER_STATUE,Recruiter's Hunter Statue
+UNIQUE_FURNITUREITEM_TELLAFRIEND_CHEST_BARREL_B,Recruiter's Storage-Barrel
 UNIQUE_FURNITUREITEM_TELLAFRIEND_BANNER_A,Recruiter's Guild Banner
 T2_FURNITUREITEM_BED,Novice's Bed
 T3_FURNITUREITEM_BED,Journeyman's Bed
@@ -1534,9 +1721,17 @@ PLAYERISLAND_FURNITUREITEM_WOOD_LANTERN_CORNER_A,Corner lantern
 PLAYERISLAND_FURNITUREITEM_WOOD_CANDELABRA_A,Candelabra
 PLAYERISLAND_FURNITUREITEM_WOOD_BARREL_A,Barrel with candle
 UNIQUE_FURNITUREITEM_MORGANA_TORCH_A,Flambeau (Disciples of Morgana)
+UNIQUE_FURNITUREITEM_MORGANA_TORCH_C,Raven Standard Flambeau (Disciples of Morgana)
+UNIQUE_FURNITUREITEM_MORGANA_PENTAGRAM,Pentagram (Disciples of Morgana)
 UNIQUE_FURNITUREITEM_MORGANA_FIREBOWL_B,Simple Brazier (Disciples of Morgana)
+UNIQUE_FURNITUREITEM_MORGANA_FIREBOWL_C,Reinforced Brazier (Disciples of Morgana)
+UNIQUE_FURNITUREITEM_MORGANA_CAMPFIRE_D,Cauldron (Disciples of Morgana)
 UNIQUE_FURNITUREITEM_MORGANA_SACRIFICE_ALTAR_A,Raven Standard Shrine (Disciples of Morgana)
+UNIQUE_FURNITUREITEM_MORGANA_SIEGE_BALLISTA_A,Siege Ballista (Disciples of Morgana)
 UNIQUE_FURNITUREITEM_MORGANA_STANDARD_A,Raven Standard (Disciples of Morgana)
+UNIQUE_FURNITUREITEM_MORGANA_WEAPONCRATE_A,Army Crate (Disciples of Morgana)
+UNIQUE_FURNITUREITEM_MORGANA_PRISON_CELL_C,Prisoner Cage (Disciples of Morgana)
+UNIQUE_FURNITUREITEM_MORGANA_TENT_A,Soldier's Tent (Disciples of Morgana)
 UNIQUE_FURNITUREITEM_MORGANA_STATUE_A,Morgana Cultist Statue
 UNIQUE_FURNITUREITEM_MORGANA_ARCHWAY_A,Morgana Stone Archway
 UNIQUE_FURNITUREITEM_MORGANA_CANDLESTAND_A,Morgana Candle Stand
@@ -3332,17 +3527,56 @@ T5_HELLGATE_10V10_NON_LETHAL_1_MAP,Expert's Hellgate Ritual (10v10 - Nonlethal)
 T6_RANDOM_DUNGEON_ELITE_TOKEN_1,Master's Dungeon Map (Large Group)
 T7_RANDOM_DUNGEON_ELITE_TOKEN_1,Grandmaster's Dungeon Map (Large Group)
 T8_RANDOM_DUNGEON_ELITE_TOKEN_1,Elder's Dungeon Map (Large Group)
+T6_RANDOM_DUNGEON_ELITE_TOKEN_2,Uncommon Master's Dungeon Map (Large Group)
+T7_RANDOM_DUNGEON_ELITE_TOKEN_2,Uncommon Grandmaster's Dungeon Map (Large Group)
+T8_RANDOM_DUNGEON_ELITE_TOKEN_2,Uncommon Elder's Dungeon Map (Large Group)
+T6_RANDOM_DUNGEON_ELITE_TOKEN_3,Rare Master's Dungeon Map (Large Group)
+T7_RANDOM_DUNGEON_ELITE_TOKEN_3,Rare Grandmaster's Dungeon Map (Large Group)
+T8_RANDOM_DUNGEON_ELITE_TOKEN_3,Rare Elder's Dungeon Map (Large Group)
+T6_RANDOM_DUNGEON_ELITE_TOKEN_4,Exceptional Master's Dungeon Map (Large Group)
+T7_RANDOM_DUNGEON_ELITE_TOKEN_4,Exceptional Grandmaster's Dungeon Map (Large Group)
+T8_RANDOM_DUNGEON_ELITE_TOKEN_4,Exceptional Elder's Dungeon Map (Large Group)
 T3_RANDOM_DUNGEON_SOLO_TOKEN_1,Journeyman's Dungeon Map (Solo)
 T4_RANDOM_DUNGEON_SOLO_TOKEN_1,Adept's Dungeon Map (Solo)
 T5_RANDOM_DUNGEON_SOLO_TOKEN_1,Expert's Dungeon Map (Solo)
 T6_RANDOM_DUNGEON_SOLO_TOKEN_1,Master's Dungeon Map (Solo)
 T7_RANDOM_DUNGEON_SOLO_TOKEN_1,Grandmaster's Dungeon Map (Solo)
 T8_RANDOM_DUNGEON_SOLO_TOKEN_1,Elder's Dungeon Map (Solo)
+T4_RANDOM_DUNGEON_SOLO_TOKEN_2,Uncommon Adept's Dungeon Map (Solo)
+T5_RANDOM_DUNGEON_SOLO_TOKEN_2,Uncommon Expert's Dungeon Map (Solo)
+T6_RANDOM_DUNGEON_SOLO_TOKEN_2,Uncommon Master's Dungeon Map (Solo)
+T7_RANDOM_DUNGEON_SOLO_TOKEN_2,Uncommon Grandmaster's Dungeon Map (Solo)
+T8_RANDOM_DUNGEON_SOLO_TOKEN_2,Uncommon Elder's Dungeon Map (Solo)
+T4_RANDOM_DUNGEON_SOLO_TOKEN_3,Rare Adept's Dungeon Map (Solo)
+T5_RANDOM_DUNGEON_SOLO_TOKEN_3,Rare Expert's Dungeon Map (Solo)
+T6_RANDOM_DUNGEON_SOLO_TOKEN_3,Rare Master's Dungeon Map (Solo)
+T7_RANDOM_DUNGEON_SOLO_TOKEN_3,Rare Grandmaster's Dungeon Map (Solo)
+T8_RANDOM_DUNGEON_SOLO_TOKEN_3,Rare Elder's Dungeon Map (Solo)
+T4_RANDOM_DUNGEON_SOLO_TOKEN_4,Exceptional Adept's Dungeon Map (Solo)
+T5_RANDOM_DUNGEON_SOLO_TOKEN_4,Exceptional Expert's Dungeon Map (Solo)
+T6_RANDOM_DUNGEON_SOLO_TOKEN_4,Exceptional Master's Dungeon Map (Solo)
+T7_RANDOM_DUNGEON_SOLO_TOKEN_4,Exceptional Grandmaster's Dungeon Map (Solo)
+T8_RANDOM_DUNGEON_SOLO_TOKEN_4,Exceptional Elder's Dungeon Map (Solo)
 T4_RANDOM_DUNGEON_TOKEN_1,Adept's Dungeon Map (Group)
 T5_RANDOM_DUNGEON_TOKEN_1,Expert's Dungeon Map (Group)
 T6_RANDOM_DUNGEON_TOKEN_1,Master's Dungeon Map (Group)
 T7_RANDOM_DUNGEON_TOKEN_1,Grandmaster's Dungeon Map (Group)
 T8_RANDOM_DUNGEON_TOKEN_1,Elder's Dungeon Map (Group)
+T4_RANDOM_DUNGEON_TOKEN_2,Uncommon Adept's Dungeon Map (Group)
+T5_RANDOM_DUNGEON_TOKEN_2,Uncommon Expert's Dungeon Map (Group)
+T6_RANDOM_DUNGEON_TOKEN_2,Uncommon Master's Dungeon Map (Group)
+T7_RANDOM_DUNGEON_TOKEN_2,Uncommon Grandmaster's Dungeon Map (Group)
+T8_RANDOM_DUNGEON_TOKEN_2,Uncommon Elder's Dungeon Map (Group)
+T4_RANDOM_DUNGEON_TOKEN_3,Rare Adept's Dungeon Map (Group)
+T5_RANDOM_DUNGEON_TOKEN_3,Rare Expert's Dungeon Map (Group)
+T6_RANDOM_DUNGEON_TOKEN_3,Rare Master's Dungeon Map (Group)
+T7_RANDOM_DUNGEON_TOKEN_3,Rare Grandmaster's Dungeon Map (Group)
+T8_RANDOM_DUNGEON_TOKEN_3,Rare Elder's Dungeon Map (Group)
+T4_RANDOM_DUNGEON_TOKEN_4,Exceptional Adept's Dungeon Map (Group)
+T5_RANDOM_DUNGEON_TOKEN_4,Exceptional Expert's Dungeon Map (Group)
+T6_RANDOM_DUNGEON_TOKEN_4,Exceptional Master's Dungeon Map (Group)
+T7_RANDOM_DUNGEON_TOKEN_4,Exceptional Grandmaster's Dungeon Map (Group)
+T8_RANDOM_DUNGEON_TOKEN_4,Exceptional Elder's Dungeon Map (Group)
 SKIN_HORSE_FOUNDER_LEGENDARY,Legendary Explorer's Horse
 UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_LEGENDARY,Riding Horse Skin: Legendary Explorer
 SKIN_HORSE_STARTERPACK,Legendary Adventurer's Horse
@@ -3832,9 +4066,13 @@ UNIQUE_CAPE_VANITY_RANGER,Ranger's Cape
 SKIN_COUGAR_RANGER,Mistprowler
 UNIQUE_TOKEN_COMMUNITY,Community Token
 UNIQUE_LOOTCHEST_COMMUNITY_COMMON,Common Community Chest
+UNIQUE_LOOTCHEST_COMMUNITY_COMMON_PREMIUM,Premium Common Community Chest
 UNIQUE_LOOTCHEST_COMMUNITY_RARE,Rare Community Chest
+UNIQUE_LOOTCHEST_COMMUNITY_RARE_PREMIUM,Premium Rare Community Chest
 UNIQUE_LOOTCHEST_COMMUNITY_EPIC,Epic Community Chest
+UNIQUE_LOOTCHEST_COMMUNITY_EPIC_PREMIUM,Premium Epic Community Chest
 UNIQUE_LOOTCHEST_COMMUNITY_LEGENDARY,Legendary Community Chest
+UNIQUE_LOOTCHEST_COMMUNITY_LEGENDARY_PREMIUM,Premium Legendary Community Chest
 UNIQUE_UNLOCK_HEAD_VANITY_DRESS_BLUE_NON_TRADABLE,Wardrobe Skin: Blue Princess Hat
 UNIQUE_UNLOCK_HEAD_VANITY_DRESS_BLACK_NON_TRADABLE,Wardrobe Skin: Noblewoman's Jewelry
 UNIQUE_UNLOCK_HEAD_VANITY_PRIEST_NON_TRADABLE,Wardrobe Skin: Monk's Hood

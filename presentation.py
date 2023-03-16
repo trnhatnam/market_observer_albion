@@ -12,6 +12,7 @@ Vous trouverez trois pages :
 - item_info : permet de voir les informations lié à un item
 - les sources''')
 
+
 for link in ["https://i.ytimg.com/vi/YM3c90leQFU/maxresdefault.jpg"]:
     imgResponse = requests.get(link)
     imgPresentation = Image.open(BytesIO(imgResponse.content))

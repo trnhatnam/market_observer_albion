@@ -11,7 +11,8 @@ l'API n'est pas complètement à jour.
 ⚠️ Guide:
 - Bien remplir les informations
 - Il est possible d'intéragir avec le graphe : on peut cliquer sur les légendes pour afficher ou non les courbes
-- Beaucoup d'objets n'ont pas d'informations, c'est normal. Les objets qui ont plus de chance d'avoir des informations sur les armes (dagger, sword...) """)
+- Beaucoup d'objets n'ont pas d'informations, c'est normal. Les objets qui ont plus de chance d'avoir des informations sur les armes (dagger, sword...)
+- L'unité monétaire est la pièce d'argent. """)
 df= pd.read_csv("items.csv") # liste des items
 
 # Les options
@@ -40,36 +41,30 @@ if confirm:
         
         # traçage des figures avec plotly
         if typeComp == "Par ville":
-            st.write("Cf le guide pour pouvoir intéragir avec les graphes : les courbes peuvent être affichées et cachées en cliquant sur les légendes.")
             qualityGrpBy = database.groupby('quality')
             for quality in qualityGrpBy.groups.keys():
-                # info sur le prix
-                fig = go.Figure() # prix moyen
-                fig2 = go.Figure() # stock
-                for row in qualityGrpBy.get_group(quality).itertuples():
-                    fig.add_trace(go.Scatter(x=pd.to_datetime(row.data['timestamps']), y=row.data['prices_avg'], name=row.location, visible="legendonly"))
-                    fig2.add_trace(go.Scatter(x=pd.to_datetime(row.data['timestamps']), y=row.data['item_count'], name=row.location, visible="legendonly"))
-                fig.update_layout(title="Prix moyen de l'item " + itemName + " (qualité=%s) "%(quality) + "en fonction du temps sur 1 mois", xaxis_title="Temps", yaxis_title="Prix moyen")
-                fig2.update_layout(title="Stock de l'item " + itemName + " (qualité=%s) "%(quality) + "en fonction du temps sur 1 mois", xaxis_title="Temps", yaxis_title="Stock")
-                st.plotly_chart(fig)
-                st.plotly_chart(fig2)
+                with st.expander('Niveau de qualité : ' + str(quality)):
+                    # info sur le prix
+                    fig = go.Figure() # prix moyen
+                    fig2 = go.Figure() # stock
+                    for row in qualityGrpBy.get_group(quality).itertuples():
+                        fig.add_trace(go.Scatter(x=pd.to_datetime(row.data['timestamps']), y=row.data['prices_avg'], name=row.location, visible="legendonly"))
+                        fig2.add_trace(go.Scatter(x=pd.to_datetime(row.data['timestamps']), y=row.data['item_count'], name=row.location, visible="legendonly"))
+                    fig.update_layout(title="Prix moyen de l'item " + itemName , xaxis_title="Temps", yaxis_title="Prix moyen")
+                    fig2.update_layout(title="Stock de l'item " + itemName, xaxis_title="Temps", yaxis_title="Stock")
+                    st.plotly_chart(fig)
+                    st.plotly_chart(fig2)
         else:
             locGrpBy = database.groupby('location')
-            st.write("Cf le guide pour pouvoir intéragir avec les graphes : les courbes peuvent être affichées et cachées en cliquant sur les légendes.")
             for loc in locGrpBy.groups.keys():
                 # info sur le prix
-                fig = go.Figure() # prix moyen
-                fig2 = go.Figure() # stock
-                for row in locGrpBy.get_group(loc).itertuples():
-                    fig.add_trace(go.Scatter(x=pd.to_datetime(row.data['timestamps']), y=row.data['prices_avg'], name=row.quality, visible="legendonly"))
-                    fig2.add_trace(go.Scatter(x=pd.to_datetime(row.data['timestamps']), y=row.data['item_count'], name=row.quality, visible="legendonly"))
-                fig.update_layout(title="Prix moyen de l'item " + itemName + " (location=%s) "%(loc) + "en fonction du temps sur 1 mois", xaxis_title="Temps", yaxis_title="Prix moyen")
-                fig2.update_layout(title="Stock de l'item " + itemName + " (location=%s) "%(loc) + "en fonction du temps sur 1 mois", xaxis_title="Temps", yaxis_title="Stock")
-                st.plotly_chart(fig)
-                st.plotly_chart(fig2)            
-        
-
-                
-        
-
-        
+                with st.expander('Localisation : ' + loc):
+                    fig = go.Figure() # prix moyen
+                    fig2 = go.Figure() # stock
+                    for row in locGrpBy.get_group(loc).itertuples():
+                        fig.add_trace(go.Scatter(x=pd.to_datetime(row.data['timestamps']), y=row.data['prices_avg'], name=row.quality, visible="legendonly"))
+                        fig2.add_trace(go.Scatter(x=pd.to_datetime(row.data['timestamps']), y=row.data['item_count'], name=row.quality, visible="legendonly"))
+                    fig.update_layout(title="Prix moyen de l'item " + itemName, xaxis_title="Temps", yaxis_title="Prix moyen")
+                    fig2.update_layout(title="Stock de l'item " + itemName, xaxis_title="Temps", yaxis_title="Stock")
+                    st.plotly_chart(fig)
+                    st.plotly_chart(fig2)

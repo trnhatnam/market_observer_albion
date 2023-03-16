@@ -12,7 +12,7 @@ with open("items.txt") as f:
 			break
 		rematch = regex.match(line)
 		identifiant,_,nom = rematch.groups()
-		if _ == '' and nom != '':
+		if nom != '':
 			df.loc[identifiant] = nom
 		
 
